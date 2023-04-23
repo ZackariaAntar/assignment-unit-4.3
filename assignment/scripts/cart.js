@@ -1,7 +1,6 @@
+//====================================================================================//
 console.log('***** Cart Functions *****');
-// Make sure to test all functions here in the JS file!
-// We want to see how you are testing your code!!!
-
+console.log('***** To test base code without errors, please comment out lines 55 to 110');
 // - Create a global variable named `basket` and set it to an empty array.
 let basket = [];
 
@@ -48,7 +47,7 @@ console.log(basket)
 empty()
 console.log(basket)
 
-// __Using functions in other functions!__
+//====================================================================================//
 console.log('***** Stretch Goals *****');
 console.log('***** To test stretch goals code without errors, please comment out lines 13-24 AND 42-49 *****')
 // 1. Add a global `const` named `maxItems` and set it to 5.
