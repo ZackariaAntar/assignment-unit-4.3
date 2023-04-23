@@ -15,19 +15,35 @@ function addItem(item){
      return true;
 };
 
-function listItem(){
-     for (let items of basket){
-         return console.log(items);
-     };
-};
+addItem('Eggs')
+addItem('Bread')
+addItem('Soap')
+addItem('Sponges')
+
+console.log(basket)
 
 
 // - Create a function called `listItems`. It should:
 //   - loop over the items in the `basket` array
 //   - console.log each individual item on a new line
 
+function listItems(){
+     for (let items of basket){
+          console.log(items);
+     };
+};
+
+listItems()
+
 // - Create a function called `empty`. It should:
 //   - reset the `basket` to an empty array
+
+function empty(){
+     return basket=[];
+}
+
+empty()
+console.log(basket)
 
 // > __IMPORTANT__
 // > Make sure that you are writing code *in the file* to test every function that you write!
